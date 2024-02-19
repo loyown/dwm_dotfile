@@ -82,7 +82,7 @@ static const Rule rules[] = {
     /* class      			instance    title       tags mask     iscentered   isfloating   monitor */
 	{ "Gimp",     			NULL,       NULL,       0,            0,           1,           -1 },
 	{ "Inkscape",     		NULL,       NULL,       0,            0,           1,           -1 },
-	{ "Firefox",  			NULL,       NULL,       1 << 8,       0,           0,           -1 },
+	{ "firefox",  			NULL,       NULL,       1 << 7,       0,           0,           -1 },
 	{ "Viewnior",  			NULL,       NULL,       0,       	  1,           1,           -1 },
 	{ "MPlayer",  			NULL,       NULL,       0,       	  1,           1,           -1 },
 	{ "Pcmanfm",  			NULL,       NULL,       0,       	  1,           1,           -1 },
@@ -95,6 +95,7 @@ static const Rule rules[] = {
 	{ "VirtualBox Manager",  			NULL,       NULL,       0,       	  1,           1,           -1 },
 	{ "Nm-connection-editor",  			NULL,       NULL,       0,       	  1,           1,           -1 },
 	{ "Xfce4-power-manager-settings",  	NULL,       NULL,       0,       	  1,           1,           -1 },
+	{ "FirstGui",	"FirstGui",	NULL	0,	1,1, -1},
 };
 
 /* ******************** Layout(s) ******************** */
